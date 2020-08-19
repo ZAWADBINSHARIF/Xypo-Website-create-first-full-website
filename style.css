@@ -36,7 +36,7 @@ p{
     padding: 18px 40px;
     background-color: transparent;
     outline: none;
-    font-weight: bold;
+    font-weight: bolder;
     border: 2px solid #f67c92;
 }
 .line{
@@ -108,4 +108,128 @@ nav ul li{
 nav ul li a{
     color: white;
     text-transform: uppercase;
+}
+
+
+/* ------about----- */
+
+.about{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about_img{
+    flex-basis: 50%;
+}
+.about_img img{
+    width: 100%;
+}
+.discription{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about_text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about_text h2{
+    margin: 50px 0 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+.about_text h3{
+    font-style: italic;
+    font-style: italic;
+    color: #797979;
+}
+
+
+/* ----features---- */
+
+#feature_section{
+    padding: 50px 0;
+}
+.feature_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature_item{
+    text-align: center;
+    flex-basis: 25%;
+}
+.feature_item img{
+    width: 100px;
+}
+.feature_item h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature_btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature_btn .line {
+    display: inline-block;
+    text-align: right;
+    margin-right: 25px;
+}
+
+
+/* -----courses----- */
+
+#courses{
+    padding: 100px 0;
+}
+.courses_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.courses_text{
+    flex-basis: 50%;
+}
+.courses_img{
+    flex-basis: 50%;
+}
+.courses_img img{
+    width: 100%;
+}
+.courses_text button{
+    margin: 30px 0;
+}
+
+/* ----offer---- */
+
+.offer{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.offer_img{
+    flex-basis: 50%;
+}
+.offer_img img{
+    width: 100%;
+}
+.discription{
+    flex-basis: 50%;
+    text-align: right;
+}
+.offer_text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.discription button{
+    margin: 30px 0;
 }
