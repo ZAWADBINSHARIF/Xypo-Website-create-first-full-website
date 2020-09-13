@@ -206,6 +206,9 @@ nav ul li a{
 .courses_text button{
     margin: 30px 0;
 }
+.description{
+    max-width: 350px;
+}
 
 /* ----offer---- */
 
@@ -232,4 +235,178 @@ nav ul li a{
 }
 .discription button{
     margin: 30px 0;
+}
+
+/* --- contact --- */
+
+.contact_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form_col, .img_col{
+    flex-basis: 50%;
+}
+.img_col img{
+    width: 100%;
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f67c92;
+}
+.action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.action_btn button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/* ---footer--- */
+
+#footer_section{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+.footer_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer_left_col{
+    margin-top: 60px;
+    flex-basis: 35%;
+}
+
+.footer_link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_link h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.footer_link small{
+    font-size: 13px;
+    color: #777;
+}
+.footer_info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.footer_logo img{
+    width: 100px;
+}
+.footer_logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright_text, .footer_logo{
+    flex-basis: 40%;
+}
+
+/* ---social icons--- */
+
+.social_icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social_icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer
+}
+
+
+/* -----Media Quary----- */
+
+@media only screen and (max-width: 770px) {
+    #header{
+        background-image: none; 
+    }    
+    .container{
+        margin: 0 50px;
+    }
+    #logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header_text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #menuBtn{
+        width: 40px;
+        right: 50px;
+    }
+    .common_button{
+        padding: 10px 16px;
+    }
+    .social_icons img{
+        width: 14px;
+        margin: 0 auto 15px;
+    }
+    .about_img, .discription, .offer_img{
+        flex-basis: 100%;
+    }
+    .about_text, .offer_text{
+        margin: 50px 50px 0;
+    }
+    .about_text h2{
+        font-size: 18px;
+    }
+    .feature_item{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .feature_item img{
+        width: 80px;
+    }
+    .courses_text, .courses_img{
+        flex-basis: 100%;
+    }
+    .courses_img{
+        margin-top: 70px;
+    }
+    .form_col, .img_col{
+        flex-basis: 100%;
+    }
+    .img_col{
+       margin-top: 50px; 
+    }
+    .footer_left_col{
+        margin-top: 60px;
+        flex-basis: 100%;
+    }
+    .footer_title {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
 }

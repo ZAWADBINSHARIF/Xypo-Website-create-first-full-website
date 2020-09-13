@@ -1,5 +1,5 @@
-var menuBtn = document.getElementById("menuBtn");
-var sideNav = document.getElementById("sideNav");
+const menuBtn = document.getElementById("menuBtn");
+const sideNav = document.getElementById("sideNav");
 
 sideNav.style.right = "-250px";
 

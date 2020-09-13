@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <img src="/Xypo_All_Images/images/logo.png" alt="logo" id="logo">
             <div class="header_text">
@@ -28,12 +28,12 @@
 
     <nav id="sideNav">
         <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">about us</a></li>
-            <li><a href="">feature</a></li>
-            <li><a href="">courses</a></li>
-            <li><a href="">offer</a></li>
-            <li><a href="">contact</a></li>
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#feature_section">feature</a></li>
+            <li><a href="#courses">courses</a></li>
+            <li><a href="#offer">offer</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 
@@ -41,7 +41,7 @@
 
 <!-- about -->
 
-    <section>
+    <section id="about">
         <div class="about">
             <div class="about_img">
                 <img src="/Xypo_All_Images/images/about.png" alt="">
@@ -103,7 +103,8 @@
     <section id="courses">
         <div class="container courses_container">
             <div class="courses_text">
-                <h1>Browse our top<br>courses</h1>
+                <div class="description">
+                    <h1>Browse our top<br>courses</h1>
                 <span class="square"></span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora vero reiciendis quo quae totam mollitia blanditiis, sint magni. Necessitatibus aliquid dolore quos a. Aut quisquam quia voluptas, et suscipit ducimus expedita tenetur recusandae repellat, commodi assumenda dolorem, eum earum nulla impedit rerum magnam porro ipsum tempore ut corrupti? Porro adipisci aperiam ducimus accusamus inventore?</p>
                 <button class="common_button">View All Courses</button>
@@ -112,6 +113,7 @@
                     <span class="line2"></span><br>
                     <span class="line3"></span>
                 </div>
+                </div> 
             </div>
             <div class="courses_img">
                 <img src="/Xypo_All_Images/images/course.png" alt="coursesImg">
@@ -121,7 +123,7 @@
 
     <!-- offer -->
 
-    <section>
+    <section id="offer">
         <div class="offer">
             <div class="offer_img">
                 <img src="/Xypo_All_Images/images/offer.png" alt="offer_img">
@@ -141,6 +143,88 @@
             </div>
         </div>
     </section>
+
+    <!-- contact -->
+    
+    <section id="contact">
+        <div class="container contact_container">
+            <div class="form_col">
+                <h1>Sing Up to join our<br>learning community</h1>
+                <form>
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <input type="password" placeholder="Enter Password">
+                    <div class="action_btn">
+                        <button class="common_button">Sign Up</button>
+                        <button class="common_button">Start Free Trial</button>
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="img_col">
+                <img src="/Xypo_All_Images/images/contact.png" alt="contact">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer_section">
+        <footer>
+            <div class="container footer_row">
+                <hr>
+                <div class="footer_left_col">
+                    <div class="footer_link">
+                        <div class="footer_title">
+                            <h4>About Us</h4>
+                            <small>Request a Demo</small><br>
+                            <small>FAQs</small>
+                        </div>
+                        <div class="footer_title">
+                            <h4>Product</h4>
+                            <small>Our plans</small><br>
+                            <small>Free trial</small>
+                        </div>
+                        <div class="footer_title">
+                            <h4>Support</h4>
+                            <small>Features</small><br>
+                            <small>Contact Us</small>
+                        </div>
+                        <div class="footer_title">
+                            <h4>Explore</h4>
+                            <small>Find a Ninprofit</small><br>
+                            <small>Corporate Solution</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right_col">
+                    <div class="footer_info">
+                        <div class="copyright_text">
+                            <small>support@Xypo.com</small><br>
+                            <small>copyright 2020 Xypo</small>
+                        </div>
+                        <div class="footer_logo">
+                            <img src="/Xypo_All_Images/images/logo.png" alt="logo">
+                            <button class="common_button">English</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- social icons -->
+
+    <div class="social_icons">
+        <img src="/Xypo_All_Images/images/facebook.png" alt="facebook">
+        <img src="/Xypo_All_Images/images/instagram.png" alt="instagram">
+        <img src="/Xypo_All_Images/images/twitter.png" alt="twitter">
+        <img src="/Xypo_All_Images/images/linkedin.png" alt="linkedin">
+    </div>
     
     <script src="script.js"></script>
 </body>
