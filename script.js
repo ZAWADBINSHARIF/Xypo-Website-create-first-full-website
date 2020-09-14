@@ -1,3 +1,12 @@
+'use strict'
+
+
+// smooth scroll
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
 const menuBtn = document.getElementById("menuBtn");
 const sideNav = document.getElementById("sideNav");
 
