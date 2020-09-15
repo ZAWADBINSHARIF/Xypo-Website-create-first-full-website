@@ -76,7 +76,7 @@ p {
 
 header {
     height: 100vh;
-    background-image: url(master/Xypo_All_Images/images/background.png);
+    background-image: url(/Xypo_All_Images/images/background.png);
     background-size: cover;
     background-position: center;
 }
